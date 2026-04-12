@@ -1,0 +1,419 @@
+Country,Species,Scientific_Species,Genes,details_url,Institute,Editing_Method,Delivery,Foreign_DNA,Regulatory_Process,NGT
+Australia,"Chicken
+          (",Gallus gallus,Site directed integration for null-segregant technology,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=89&RegProcess=0,"Agricultural Technology Research InstituteXiangshan Dist., HsinchuTW",Embryo edit,Directive microinjection of two gRNAs and Cas9 mRNA into the cytoplasm of pronuclear zygotes efficiently generated four piglets confirmed as CD163 knockout (KO) and/or CD163 exon 7 deleted (CD163?E7),No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=151&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Cloned cell line,The three plasmids were cotransfected into cells under optimal conditions by electroporation.,Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,pAPN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=196&RegProcess=0,Jiangsu Provincial Engineering Research Center for Precision Animal BreedingNanjing 210014CN,Embryo edit,,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=127&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,"Let-7-gRNA transgenic vector was microinjected into G0 embryos, and the positive G1 broods were screened in day 6 embryos by examining the expression of green fluorescence protein (GFP) in the eyes",Yes,No,CRISPR
+China,"Silkworm
+          (",Bombyx mori,let-7,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=32&RegProcess=0,AgResearch LtdNZ,Embryo edit,"microinjection, plasmid, ssODN",No,No,CRISPR
+New Zealand,"Sheep
+          (",Ovis aries,"NANOS2, DAZL",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=207&RegProcess=0,"Shandong Provincial Maternal and Child Health Care Hospital, Jinan, China and Department of Biological Sciences, National University of SingaporeSG",Embryo edit,RNP complex was microinjected into the cytoplasm,No,No,CRISPR
+Singapore,"Redhead cichlid
+          (",Vieja melanura,slc45a2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=195&RegProcess=0,"Shandong Provincial Maternal and Child Health Care Hospital, Jinan, China and Department of Biological Sciences, National University of SingaporeSG",Embryo edit,RNP complex was microinjected into the cytoplasm,No,No,CRISPR
+Singapore,"Royal farlowella
+          (",Sturisoma panamense,slc45a2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=145&RegProcess=0,"Depatment of Bio Life Science, ShinGu UniversitySeongnam 13174KR",Other,"For the Z chromosome KI experiment, 7.5 ÂµL Lipofectamine 3000 Reagent were diluted in 250 ÂµL OPTI-MEM (Invitrogen, USA), and the Cas9 expression plasmid, Z chr gRNA, and donor GFP KI vector (1.5:1:3.0 Âµg) were mixed with Lipofectamine P3000 Reagent in 250 ÂµL OPTI-MEM at room temperature",Yes,No,CRISPR
+South Korea,"Chicken
+          (",Gallus gallus,GFP,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=79&RegProcess=0,"US Meat Animal Research Center, United States Department of Agriculture (USDA)Clay Center, NEUS",Cloned cell line,"65 pmol of gRNA, 78 pmol of Alt-R S.p. HiFi Cas9 Nuclease V3, and 0.11 nmol of the ssODN were added to the cells.",Yes,No,CRISPR
+United States,"Cattle
+          (",Bos taurus x Bos taurus indicus,CD46,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=55&RegProcess=0,"School of Fisheries, Aquaculture and Aquatic Sciences, Auburn UniversityAuburn, AL, 36849US",Embryo edit,"The ccÃA-msElovl2 transgene containing masu salmon, Oncorhynchus masou, elongase gene driven by the common carp, Cyprinus carpio, Ã-actin promoter was inserted into the channel catfish melanocortin-4 receptor (mc4r) gene",Yes,No,CRISPR
+United States,"Channel catfish
+          (",Ictalurus punctatus,elongase,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=90&RegProcess=0,"Acceligen Inc.Eagan, MNUS",Embryo edit,"single guide RNA (sgRNA) targeted the second exon, upstream of the sequence encoding the highly conserved KISS1 10-amino acid core. The designed sgRNA and Cas9 were co-injected into zygotes with two HDR templates, which separately contained a stop codon (HDRSC) and a silent blocking mutation (HDRBM). Single-stranded donor oligonucleotides (ssODNs)",Yes,No,CRISPR
+United States,"Pig
+          (",Sus scrofa domesticus,KISS1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=165&RegProcess=0,Inner Mongolia UniversityHohhot 010021CN,Cloned cell line,Transfection of fibrobrasts,No,No,CRISPR
+China,"Cattle
+          (",Bos taurus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=7&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Embryo edit,microinjection approach of the CRISPR/Cas9 system,No,No,CRISPR
+China,"Goat
+          (",Capra hircus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=65&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,"pmela, pmelb",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=110&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Cloned cell line,Electrotransfection,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,"CD163, MSTN",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=5&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Cloned cell line,Cells were cloned,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,PCBP1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=186&RegProcess=0,"State Key Laboratory for Conservation and Utilization of Subtropical Agro-Bioresources, Guangxi UniversityNanningCN",Embryo edit,,No,No,CRISPR
+China,"Rabbit
+          (",Oryctolagus cuniculus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=121&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Embryo edit,Microinjection of 100 ng/ ÂµL Cas9 mRNA and 200 ng/ÂµL sgRNAs,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=129&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Embryo edit,microinjection approach of the CRISPR/Cas9 system,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=133&RegProcess=0,"Biological Sciences Section, Central Research Institute for Feed and LivestockZen-noh, Ibaraki 300-4204JP",Embryo edit,,No,No,CRISPR
+Japan,"Pig
+          (",Sus scrofa domesticus,NANOS3,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=182&RegProcess=0,"Department of Marine Biosciences, Tokyo University of Marine Science and Technology4-5-7 Konan, Minato-Ku, Tokyo, 108-8477JP",Embryo edit,,No,No,CRISPR
+Japan,"Rainbow trout
+          (",Oncorhynchus mykiss,dnd,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=99&RegProcess=0,"Seoul National University, Gwanak-gu151-921KR",Embryo edit,"exon 2 targeted and sgRNA, Cas0 mRNA and sgRNA were injected into zygotes",No,No,CRISPR
+South Korea,"Cattle
+          (",Bos taurus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=43&RegProcess=0,"University of California, DavisUS",Embryo edit,RNPs were delivered via cytoplasmic microinjection of single-cell bovine embryos,No,No,CRISPR
+United States,"Cattle
+          (",Bos taurus,NANOS3,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=46&RegProcess=0,"School of Fisheries, Aquaculture and Aquatic Sciences, Auburn UniversityAuburn, AL, 36849US",Embryo edit,Insertion of an elovl2 transgene isolated from masu salmon (Oncorhynchus masou) driven by a carp Ã-actin promoter using a two-hit by gRNA and two oligos with a targeting plasmid (2H2OP) CRISPR/Cas9 approach.,Yes,No,CRISPR
+United States,"Channel catfish
+          (",Ictalurus punctatus,elovl2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=91&RegProcess=0,"Department of Animal Sciences, The Ohio State UniversityColumbus, OH 43210US",Other,"injected the adenovirus containing the CRISPR-Cas9 system with the guide RNA (gRNA) targeting the MLPH gene, termed Adeno-MLPH, and the MSTN gene, termed Adeno-MSTN, into chicken and duck blastoderms,",No,No,CRISPR
+United States,"Chicken
+          (",Gallus gallus,"MLPH, MSTN",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=81&RegProcess=0,"Department of Animal Sciences, The Ohio State UniversityColumbus, OH 43210US",Other,Adenovirus,No,No,CRISPR
+United States,"Duck
+          (",Anas platyrhyncos,"MLPH, MSTN",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=27&RegProcess=0,"University of California, DavisUS",Embryo edit,,No,No,CRISPR
+United States,"Goat
+          (",Capra hircus,OTX2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=209&RegProcess=0,"Shanghai Fisheries Institute265 Jiamusi Road, Shanghai, 200433CN",Embryo edit,Five hundred one-cell fertilized eggs from two golden tilapia crosses were injected with pMDS-PMEL plasmid and Ac transposase mRNA.,No,No,CRISPR
+United States,"Nile tilapia
+          (",Oreochromis niloticus,Pmel17,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=100&RegProcess=0,Genus PLCUS,Embryo edit,RNP,No,No,CRISPR
+United States,"Pig
+          (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=6&RegProcess=0,"University of California, DavisUS",Embryo edit,Electroporation of dual-guide RNP into zygotes,No,No,CRISPR
+United States,"Sheep
+          (",Ovis aries,"SOCS2, PDX1",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=208&RegProcess=0,"CSIRO Health and Biosecurity, Australian Centre for Disease PreparednessAU",Other,Tol2 transposon constructs encoding Cas9 and guide RNAs (gRNAs) specific to the immediate early infected-cell polypeptide-4 (ICP4) of MDV.,Yes,No,CRISPR
+Australia,"Chicken
+          (",Gallus gallus,ICP4,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=80&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Cloned cell line,"Using the HMEJ-based method, we targeted to the bROSA26 locus to stimulate functional NRAMP1 gene KI and ultimately more effectively produced gene-edited cattle.",No,No,CRISPR
+China,"Cattle
+          (",Bos taurus,NRAMP1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=48&RegProcess=0,"Chinese Academy of Sciences, WuhanCN",Embryo edit,coinjection with specific sgRNAs with Cas9 mRNA.,No,No,CRISPR
+China,"Gibel carp
+          (",Carassius gibelio Bloch,"Cgfoxl2a-B, Cgfoxl2b-A, Cgfoxl2b-B",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=72&RegProcess=0,Inner Mongolia UniversityHohhot 010021CN,Cloned cell line,Cas9/gRNA co-expression plasmids,Yes,No,CRISPR
+China,"Goat
+          (",Capra hircus,FGF5,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=57&RegProcess=0,"University of Chinese Academy of SciencesBeijing, 100049CN",Embryo edit,"Electroporation. 0.5 Âµg gRNA1, 0.5 Âµg gRNA2 and 1.0 Âµg Cas9 mRNA for myomaker (two gRNAs), and 0.7 Âµg gRNA and 1.4 Âµg Cas9 mRNA for gsdf (one gRNA) were respectively mixed in 100 ÂµL 1?Ã?PBS for electroporating.",No,No,CRISPR
+China,"Olive flounder
+          (",Paralichthys olivaceus,"Myomaker, gsdf",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=141&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Cloned cell line,electroporation of plasmids into PFFs,Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,"fat-1, IGF1",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=156&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Cloned cell line,,Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,FST,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=159&RegProcess=0,"Sun Yat-sen UniversityGuangzhou, 510006CN",Cloned cell line,The pX458-sgRNA recombinant plasmid was transfected into the kidney cells of Liang Guang Small Spotted pig (LPKC) by electroporation. The EGFP-positive cells were sorted through FACS and used as donor cells for SCNT.,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=176&RegProcess=0,"Huazhong Agricultural UniversityWuhan, 437000, HubeiCN",Cloned cell line,,Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,PPARγ,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=183&RegProcess=0,"Czech Academy of SciencesVidenska 1083, 142 20 PragueCZ",Other,PGCs (2.5 Ã 105) were suspended in Nucleofector Solution V (Lonza) and mixed with 10 Âµg of pX458-TVA in total volume of 100 ÂµL. Nucleofection was performed with the AMAXA nucleofector,No,No,CRISPR
+Czech Republic,"Chicken
+          (",Gallus gallus,Tva,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=88&RegProcess=0,"Friedrich-Loeffler-InstitutMariensee, 31535 Neustadt am RÃ¼benbergeDE",Embryo edit,A total of 31 or 32 embryos derived from intracytoplasmic microinjection of the Cas9 protein and gRNA SRY_1 and SRY_3 into in vitro fertilization (IVF) produced zygotes were surgically transferred into each of three hormonally synchronized recipient sows.,No,No,CRISPR
+Germany,"Pig
+          (",Sus scrofa domesticus,Tva,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=187&RegProcess=0,Volcani InstituteIL,Embryo edit,Microinjection of RNPs,No,No,CRISPR
+Israel,"Nile tilapia
+          (",Oreochromis niloticus,slc45a2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=112&RegProcess=0,"Faculty of Bioscience and Bioindustry, Tokushima UniversityTokushimaJP",Embryo edit,Lipofection-mediated RNP transfection,No,No,CRISPR
+Japan,"Pig
+          (",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=170&RegProcess=0,"Institute of Marine ResearchNordnes, NO-5817 BergenNO",Embryo edit,"Salmon eggs were fertilized and followking fertilizationmicroinjection was carried out using 50?ng/Âµl gRNA and 150?ng/Âµl cas9 mRNA in nuclease free water and a FemtoJetÂ®4i (Eppendorf) microinjector. The ODNs were added to the injection mix with a final concentration of 0.15, 0.5, 1.5 or 4?ÂµM.",Yes,No,CRISPR
+Norway,"Atlantic Salmon
+          (",Salmo salar,dnd,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=201&RegProcess=0,Ernst Federal Science Center for Animal HusbandryPodolskRU,Cloned cell line,"To obtain individual colonies of bovine GE fibroblasts, the early-passage fibroblasts were electroporated with a mixture of plasmids encoding Cas9 and gRNA,aimed at inactivating the BLG",No,No,CRISPR
+Russia,"Cattle
+          (",Bos taurus,BLG,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=36&RegProcess=0,"University of California, DavisUS",Embryo edit,"the repair template was provided as a template, and everything was microinjected in at 6 hpi - we transferred only green embryos resulting in a knocked in male bull calf - Cosmo",Yes,No,CRISPR
+United States,"Cattle
+          (",Bos taurus,SRY,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=52&RegProcess=0,"Acceligen Inc.Eagan, MNUS",Embryo edit,intracytoplasmic microinjection,No,No,CRISPR
+United States,"Cattle
+          (",Bos taurus,PRLR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=205&RegProcess=0,Shanghai Ocean UniversityShanghai 201306CN,Embryo edit,The fertilized eggs (1â2 cell stage) were injected with 1 nL mixture of gRNA (100 pg) and Cas9 protein (900 pg).,No,No,CRISPR
+China,"Blunt snout sea bream
+          (",Megalobrama amblycephala,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=98&RegProcess=0,Shanghai Jiaotong UniversityShanghaimCN,Other,we knocked out the MSTN gene in the tibialis anterior muscle of newborn chicks using CRISPR/Cas9 technology.,No,No,CRISPR
+China,"Chicken
+          (",Gallus gallus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=82&RegProcess=0,Shanghai Ocean UniversityShanghai 201306CN,Embryo edit,A mixture of Cas9 protein (400 ng/ÂµL) and sgRNA (225 ng/ÂµL) was co-injected into the one-celled stage embryos (1 ÂµL/embryo).,No,No,CRISPR
+China,"Common Carp
+          (",Cyprinus carpio,MC1R,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=76&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,"AMH, AMHR2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=102&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,Embryos at the one-cell stage were microinjected with gRNA and Cas9 mRNA,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,Cyp11c1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=103&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,gRNA and Cas9 mRNA were co-injected into one-cell stage embryos,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,foxh1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=106&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,Artificially synthesized gRNA and Cas9 mRNA were co-injected into one-cell stage embryos,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,IGF3,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=108&RegProcess=0,"Institute of Animal Sciences, Chinese Academy of Agricultural SciencesBeijingCN",Cloned cell line,we report generation of double-gene-knockout (DKO) pigs harboring edited knockout alleles for known receptor proteins CD163 and pAPN and show that DKO pigs are completely resistant to genotype 2 PRRSV and TGEV,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,"CD163, pAPN",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=154&RegProcess=0,Ministry of education & Key Lab of Swine GeneticsCN,Cloned cell line,"circular plasmids of CSNIS1-sgRNA, Cas9, and donor vector",Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,LF,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=166&RegProcess=0,"School of Medical Engineering, Foshan University,FoshanCN",Cloned cell line,Homozygous MSTN cells were cloned,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=175&RegProcess=0,"Sun Yat-sen UniversityGuangzhou, 510006CN",Cloned cell line,The pX458-sgRNA recombinant plasmid was transfected into the LPK cells by electroporation. The EGFP-positive cells were sorted through FACS and used as donor cells for SCNT.,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=177&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Embryo edit,"Mixtures of gRNAs (40 ng/Ã¯Â¿Â½L) and Cas9 (200 ng/Ã¯Â¿Â½L) were microinjected into the cytoplasm of the embryos,",No,No,CRISPR
+China,"Rabbit
+          (",Oryctolagus cuniculus,FGF5,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=118&RegProcess=0,"China Agricultural UniversityBeijing, 100193CN",Embryo edit,microinjection,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,FGF5,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=124&RegProcess=0,"College of Animal Science and Technology, Northwest A&F UniversityYangling 712100CN",Embryo edit,Successfully achieved the precise gene editing of the ovine MSTN gene by injecting both Cas9 mRNA and sgRNAs into embryos at the one-cell stage.,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=130&RegProcess=0,Technical University MunichFreisingDE,Other,PGCs were co-transfected with a CRISPR/Cas9 vector expressing a single guide RNA and Cas9-2A-eGFP in combination with a single?stranded oligodeoxynucleotide (ssODN). The ssODN served as DNA repair template to specifically target the W38 coding region of chNHE1 within Exon1,Yes,No,CRISPR
+Germany,"Chicken
+          (",Gallus gallus,chNHE1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=87&RegProcess=0,"Institute of Marine ResearchNordnes, NO-5817 BergenNO",Embryo edit,Microinjection,No,No,CRISPR
+Norway,"Atlantic Salmon
+          (",Salmo salar,dnd,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=199&RegProcess=0,"Institute of Marine ResearchNordnes, NO-5817 BergenNO",Embryo edit,"Fertilization and microinjections were carried out using 50?ng/Âµl gRNA and 150?ng/Âµl cas9 mRNA . The ODNs (S, AS or ds) were added to the injection mix with a final concentration of 1.5 or 0.15?ÂµM, and the plasmid with a final concentration of 2.5 or 10?ng/Âµl (corresponding to 0.001 and 0.004?ÂµM, respectively).",Yes,No,CRISPR
+Norway,"Atlantic Salmon
+          (",Salmo salar,slc45a2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=202&RegProcess=0,"Agricultural Technology Research InstituteXiangshan Dist., HsinchuTW",Cloned cell line,"A pRSAD2-KI pig that constitutively overexpressed the pRSAD2 was cloned , viral challenge results indicated that fibroblasts isolated from the pRSAD2-KI pig reduced CSFV infection.",No,No,CRISPR
+Taiwan,"Pig
+          (",Sus scrofa domesticus,pRSAD2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=184&RegProcess=0,University of StirlingStirlingUK,Embryo edit,Injecting Cas9 mRNA and sgRNAs into Nile tilapia embryos at 1 cell stage.,No,No,CRISPR
+United Kingdom,"Nile tilapia
+          (",Oreochromis niloticus,piwil2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=109&RegProcess=0,"Washington State UniversityPullman, WA 99164US",Embryo edit,"Bovine zygotes were generated using an in vitro production system and electroporated with CRISPR-Cas9 reagents designed to edit the NANOS2 gene,",No,No,CRISPR
+United States,"Cattle
+          (",Bos taurus,NANOS2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=45&RegProcess=0,"University of MarylandCollege Park, MD 20742US",Embryo edit,Presumptive zygotes were microinjected with a mixture of commercially sourced Cas9 RNP (Cas9 protein and sgRNA) and single-stranded DNA using a FemtoJet microinjector,No,No,CRISPR
+United States,"Cattle
+          (",Bos taurus,PRNP,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=51&RegProcess=0,"Auburn UniversityAuburn, AL 36849US",Embryo edit,"To insert the donor template carrying the cathelicidin gene, we used the small guide RNA (sgRNA) that directed Cas9 nuclease to that specific location in a non-coding region of chromosome 1. The designed sgRNA was co-injected with Cas9 along with each donor DNA constructs in different concentrations (10, 20, and 40 ng/ÂµL) into one cell embryos",Yes,No,CRISPR
+United States,"Channel catfish
+          (",Ictalurus punctatus,alligator cathelicidin,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=94&RegProcess=0,"Washington State UniversityPullman, WA 99164US",Cloned cell line,"To generate NANOS2 KO males for phenotyping and SSCT, somatic cell nuclear transfer (SCNT) was used (19) with the nuclear DNA donor deriving from XY fetal fibroblasts of Nubian Ã Boer crossbred male goats that were modified by CRISPRCas9 editing to possess 16-bp and 23-bp NANOS2 ? alleles (SI Appendix,Fig. S6). In total, 125 one-cell-stage cloned embryos were generated and surgically transferred into seven estrous synchronized recipients.At40to45dof gestation, five recipients were confirmed preg",No,No,CRISPR
+United States,"Goat
+          (",Capra hircus,NANOS2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=69&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,The gRNA and Cas9 mRNA were co-injected into one-cell stage embryos of tilapia,No,No,CRISPR
+United States,"Nile tilapia
+          (",Oreochromis niloticus,"rln3a, rln3b",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=111&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,The guide RNA and Cas9 mRNA were co-injected into one-cell-stage embryos,No,No,CRISPR
+United States,"Nile tilapia
+          (",Oreochromis niloticus,Tsp1a,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=114&RegProcess=0,"Washington State UniversityPullman, WA 99164US",Cloned cell line,cConed a founder male that possessed 150-bp and 4-bp ? NANOS2 alleles (boar #146) using somatic cell nuclear transfer.,No,No,CRISPR
+United States,"Pig
+          (",Sus scrofa domesticus,NANOS2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=180&RegProcess=0,"Department of Animal Sciences, The Ohio State UniversityColumbus, OH 43210US",Other,"By injecting the recombinant adenovirus containing CRISPR/Cas9 into the quail blastoderm, potential germline chimeras were generated and offspring with three base-pair deletion in the targeted region of the MSTN gene was identified",No,No,CRISPR
+United States,"Quail
+          (",Coturnix japonica,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=74&RegProcess=0,Shanghai Ocean UniversityShanghai 201306CN,Embryo edit,The sgRNA and Cas9 protein were co-injected into the one-cell embryos,No,No,CRISPR
+China,"Common Carp
+          (",Cyprinus carpio,"ASIP 1, ASIP 2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=4&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Embryo edit,"Initial transfections of the third generation Base Editor (BE3) plasmid and four different sgRNAs into caprine fibroblasts were ineffective in altering FGF5. In contrast, all five progenies produced from microinjected single-cell embryos had alleles with a targeted nonsense mutation.",No,No,CRISPR
+China,"Goat
+          (",Capra hircus,FGF5,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=58&RegProcess=0,Inner Mongolia UniversityHohhot 010021CN,Cloned cell line,Electroporation of fibroblast. Cas9 plasmid was utilized.,No,No,CRISPR
+China,"Goat
+          (",Capra hircus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=63&RegProcess=0,Inner Mongolia UniversityHohhot 010021CN,Cloned cell line,,Yes,No,CRISPR
+China,"Goat
+          (",Capra hircus,Tβ4,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=70&RegProcess=0,"Agricultural University, NanchangJiangxi 330045CN",Embryo edit,"microinjecting sgRNA and Cas9 protein into the region of zygote formation within 2 hr after queen oviposition, which allows one-step generation of biallelic knockout mutants in honeybee with high efficiency.",No,No,CRISPR
+China,"Honeybee
+          (",Apis mellifera,Mrjp1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=29&RegProcess=0,"Huazhong Agricultural UniversityWuhan, 437000, HubeiCN",Embryo edit,"One-cell stage fertilized eggs were fixed on an agarose gel block with size matched holes in a row. A 2 nL mix containing 50 ng/ÂµL gRNA and 150 ng/ÂµL Cas9 mRNA in RNase-free water was injected in every fertilized egg at the yolk/blastomere boundary through the chorion using picospritzer III microinjector (Parker Hannifin, S/N 1718) and needles produced from a microelectrode drawing apparatus (Sutter, P-2000). We were able to inject 10â20 eggs in 1 min.",No,No,CRISPR
+China,"Loach
+          (",Paramisgurnus dabryanus,TYR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=142&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,The guide RNA (gRNA) and Cas9 mRNA were co-injected into the one-cell stage embryos,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,"esr1, esr2a, esr2b",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=104&RegProcess=0,"University of ChinaQingdao, 266003CN",Embryo edit,microinjection of an optimized combination of sgRNA and Cas9 protein complexes,No,No,CRISPR
+China,"Oyster
+          (",Crassostrea gigas,"MSTN, twist",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=75&RegProcess=0,"State Key Laboratory for Agrobiotechnology, College of Biological Sciences, China Agricultural UniversityBeijingCN",Cloned cell line,pX330-501 vector and a donor vector. pX330-501 vector was designed to target exon 7 of CD163,Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=150&RegProcess=0,"State Key Laboratory for Agrobiotechnology, College of Biological Sciences, China Agricultural UniversityBeijingCN",Cloned cell line,,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=152&RegProcess=0,"Yat-sen UniversityGuangzhou, 510006CN",Cloned cell line,"PEFs were harvested, counted, and 1?Ã?106 cells were resuspended in 100 ÂµL of buffer R (Invitrogen, USA), that contains 5 Âµg of RGS reporter plasmid and 5 Âµg of each pX330-IGF2-sgRNA plasmid. The mixture was then transfected by electroporation at 1650 V for 10 ms in 3 pulses, using the Neon Transfection System",No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,IGF2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=164&RegProcess=0,Hunan Normal UniversityChangsha 410081CN,Embryo edit,Cas9 mRNA (300 ng ÂµL-1) plus the gRNA (30 ng ÂµL-1) of tyr gene was co-microinjected into one-cell embryos,No,No,CRISPR
+China,"White crucian carp
+          (",Carassius auratus civieri,TYR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=71&RegProcess=0,"University of South Bohemia in Ceske BudejoviceZÃ¡tiÅ¡Ã­ 728/II, 389 25 VodnanyCZ",Embryo edit,Embryos at the 1 cell stage were injected with prepared complex of mixture all five sgRNAs and Cas9 protein (gRNAs+Cas9 ribonucleoprotein complex) in animal pole,No,No,CRISPR
+Czech Republic,"Sterlet
+          (",Acipenser ruthenus,dnd1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=25&RegProcess=0,"Tokushima University2272-1 Ishii, Myozai-gun, Tokushima 779-3233JP",Embryo edit,three gRNA using electroporation,No,No,CRISPR
+Japan,"Pig
+          (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=8&RegProcess=0,"Regional Fish Institute, Ltd.JP",Embryo edit,Microinjection,No,No,CRISPR
+Japan,"Red sea bream
+          (",Pagrus major,LEPR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=194&RegProcess=0,"Regional Fish Institute, Ltd.JP",Embryo edit,Microinjection,No,No,CRISPR
+Japan,"Tiger pufferfish
+          (",Takifugu rubripes,LEPR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=193&RegProcess=0,"Norwegian University of Science and Technology, Department of BiologyTrondheim, N-7491NO",Embryo edit,Salmon eggs were fertilized with sperm in freshwater supplemented with 0.5?mM reduced glutathione at 6â8?Â°C43 and incubated at 6â8?Â°C for 2â3?h. Embryos were microinjected with 150?ng/Âµl of Cas9 mRNA and a mixture of two gRNAs each 50?ng/Âµl in Hepes buffer using the picospritzer III,No,No,CRISPR
+Norway,"Atlantic Salmon
+          (",Salmo salar,"Δ6fads2-a, Δ6fads2-b, Δ6fads2-c, Δ5fads2, slc45a2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=198&RegProcess=0,"Norwegian University of Science and Technology, Department of BiologyTrondheim, N-7491NO",Embryo edit,"Atlantic salmon eggs were fertilized with sperm in fresh water containing 0.5?mM reduced glutathione and incubated at 6â8?Â°C for 2â3?hours until the first cell was visible48. Eggs were held on concavities of plastic petri dish and injected with a mixture of 50?ng/Âµl gRNA each for slc45a2 and elovl2, and 150?ng/Âµl Cas9 mRNA in Hepes buffer using the picospritzer III",No,No,CRISPR
+Norway,"Atlantic Salmon
+          (",Salmo salar,"elovl2, slc45a2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=204&RegProcess=0,National Institute of Fisheries ScienceBusan 46083KR,Embryo edit,"The fertilized embryos were injected on a microinjection plate. gRNAs were microinjected at a final concentration of 1?Âµg/ÂµL together with 1â1.5?Âµg/ÂµL Cas9 mRNA, 200?mM KCl, and phenol red solution into 1-cell or 2-cell stage embryos",No,No,CRISPR
+South Korea,"Olive flounder
+          (",Paralichthys olivaceus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=140&RegProcess=0,"Agricultural Technology Research InstituteXiangshan Dist., HsinchuTW",Embryo edit,Two single-guide RNAs targeting the CMAH gene and Cas9 mRNA were microinjected into the cytoplasm of newly fertilized eggs,No,No,CRISPR
+Taiwan,"Pig
+          (",Sus scrofa domesticus,CMAH,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=155&RegProcess=0,"University of MissouriColumbia, MissouriUS",Embryo edit,"Single guide RNA along with Cas9 mRNA, were co-injected into embryos",No,No,CRISPR
+United States,"Pig
+          (",Sus scrofa domesticus,ANPEP,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=146&RegProcess=0,"Department of Animal Sciences, The Ohio State UniversityColumbus, OH 43210US",Other,adenoviral CRISPR/Cas9 vector was directly injected into the quail blastoderm in newly laid eggs.,No,No,CRISPR
+United States,"Quail
+          (",Coturnix japonica,MLPH,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=73&RegProcess=0,"Yangzhou UniversityYangzhou, Jiangsu 225009CN",Embryo edit,A mixture of in vitro transcribed sgRNA (10 ng/Âµl)and Cas9 mRNA (40 ng/Âµl)was injected into the cytoplasm ofpronuclear stage embryos.,No,No,CRISPR
+China,"Goat
+          (",Capra hircus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=62&RegProcess=0,Inner Mongolia UniversityHohhot 010021CN,Cloned cell line,"Cas9, MSTN knockout small guide RNA and fat-1 knockin vectors into goat fetal fibroblasts by electroporation,",Yes,No,CRISPR
+China,"Goat
+          (",Capra hircus,"MSTN, fat-1",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=67&RegProcess=0,"South China Agricultural University, Guangzhou, China; Wens Foodstuff Group Co., Ltd.YunfuCN",Cloned cell line,we described the generation of a CD163 knockout (KO) pig in which the CD163 protein was ablated by using CRISPR/Cas9 gene targeting and somatic cell nuclear transfer (SCNT) technologie,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=149&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Cloned cell line,Approximately 30 mg ofpX330-sgRNA91 plasmid and 30 mgofdonor puc57-fat-1-KI plasmid were cotransfected into 3Â·106 PFFs using the BTX-ECM 2001 Electroporation system.,Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,fat-1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=157&RegProcess=0,"China Agricultural UniversityBeijing, 100193CN",Cloned cell line,Approximately 1?Ã?106?cells were transfected with 2?Âµg pX330 vector or 4?Âµg pX335 vector using the Amaxa â¢ Basic Nucleofectorâ¢ kit for Primary Mammalian Fibroblasts,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,FBXO40,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=158&RegProcess=0,"Chinese Academy of Sciences, BeijingCN",Embryo edit,"After confirming that the Cas9 nickase, mRNA, and sgRNAs were functional, we injected them into naturally fertilized Bama embryos and transferred total of 19 embryos into two recipients",No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,IGF2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=163&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Cloned cell line,,Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,shRNAs,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=197&RegProcess=0,"Yangzhou UniversityYangzhou, Jiangsu 225009CN",Cloned cell line,"The unlabeled linearized plasmid containing MSTN was transfected into SEFs by exposing to a single pulse of 270 V for 80 seconds, applied by an electroporator",No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=128&RegProcess=0,"Huazhong Agricultural UniversityWuhan, 437000, HubeiCN",Embryo edit,Cas9 mRNA (300?ng/mL) and gRNA (20?ng/mL) were co-injected into one-cell-stage embryos,Yes,No,CRISPR
+China,"Yellow catfish
+          (",Pelteobagrus fulvidraco,pfpdz1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=143&RegProcess=0,"Department of Biological Sciences, Graduate School of Science, The University of TokyoBunkyo-ku, Tokyo 113-0033JP",Embryo edit,"microinjecting sgRNA and Cas9 protein into the region of zygote formation within 2 hr after queen oviposition, which allows one-step generation of biallelic knockout mutants in honeybee with high efficiency.",No,No,CRISPR
+Japan,"Honeybee
+          (",Apis mellifera,mKast,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=28&RegProcess=0,"Regional Fish Institute, Ltd.JP",Embryo edit,Microinjection.,No,No,CRISPR
+Japan,"Red sea bream
+          (",Pagrus major,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=139&RegProcess=0,"Seoul National University, Pyeongchang-gunGangwon-doKR",Other,"by combining the CRISPR-Cas9 platform and germ cell-mediated germline transmission, we generated G(0)/G(1) switch gene 2 ( G0S2) knockout (KO) chickens, and G0S2 null KO chickens showed a dramatic reduction of abdominal fat deposition without affecting other economic traits.",No,No,CRISPR
+South Korea,"Chicken
+          (",Gallus gallus,G0S2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=78&RegProcess=0,University of Edinburgh (Roslin Institute) with GenusUK,Embryo edit,Microinjection of RNP,No,No,CRISPR
+United Kingdom,"Pig
+          (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=147&RegProcess=0,"Auburn UniversityAuburn, AL 36849US",Embryo edit,Micrinjection,No,No,CRISPR
+United States,"Channel catfish
+          (",Ictalurus punctatus,"TICAM1, RBL",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=93&RegProcess=0,"Nanjing Agricultural UniversityNanjing, JiangsuCN",Embryo edit,one-cell embryos were then co-injected with sgRNAs and different concentrations ofCas9 mRNA by cytoplasmic injection.,No,No,CRISPR
+China,"Goat
+          (",Capra hircus,BLG,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=56&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Embryo edit,"In the present study we report that by co-injecting synthesised RNAs and single-stranded oligo deoxynucleotide (ssODN) donor sequences into goat zygotes, we successfully introduced defined point mutations resulting in single amino acid substitutions in the proteins as expected.",No,No,CRISPR
+China,"Goat
+          (",Capra hircus,GDF9,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=60&RegProcess=0,Guangdong Ocean UniversityZhanjiang 524088CN,Embryo edit,gRNA and Cas9 mRNA were co-injected into one-cell stage embryos,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,"wt1a, wt1b",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=1&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,The gRNA and Cas9 mRNA were co-injected into one-cell stage embryos,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,eEF1A1b,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=105&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Cloned cell line,PFFs at low passages were electroporated with 20 Âµg Cas9/gRNA-1 and 20 Âµg Cas9/gRNA-2 using BTX ECM 2001 square-wave electroporator,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=173&RegProcess=0,"State Key Laboratory of Stem Cell and Reproductive Biology, Chinese Academy of SciencesChaoyang District, BeijingCN",Cloned cell line,Mouse adiponectin-UCP1 knocked into the porcine endogenous UCP1 locus.,Yes,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,UCP1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=188&RegProcess=0,"Shenzhen Xenotransplantation Medical Engineering Research and Development Center, Shenzhen Second People's Hospital, First Affiliated Hospital of Shenzhen UniversityShenzhen 518035CN",Cloned cell line,,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,"GGTA1, CMAH",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=191&RegProcess=0,"China Agricultural UniversityBeijing, 100193CN",Embryo edit,,Yes,No,CRISPR
+China,"Sheep
+          (",Ovis aries,"AANAT, ASMT",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=3&RegProcess=0,"Ministry of Agriculture (MOA), Key Laboratory of Animal BiotechnologyUrumqi, Xinjiang, 830026CN",Embryo edit,cytoplasm microinjection of sgRNA/Cas9,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,ASIP,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=122&RegProcess=0,"Beijing Key Laboratory for Animal Genetic Improvement, China Agricultural UniversityBeijingCN",Embryo edit,cytoplasmic injection of Cas9 mRNA and sgRNA into zygotes,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,FGF5,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=125&RegProcess=0,"College of Life Science and Technology, Xinjiang UniversityUrumqiCN",Embryo edit,,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,FGF5,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=126&RegProcess=0,"Institute of Agrobiological Sciences, NAROIkenodai 2, Tsukuba, Ibaraki, 305-8602JP",Cloned cell line,donor DNA that contained a synonymous codon for the correct amino acid and an Aequorea coerulescens Green Fluorescent Protein (AcGFP) cassette with a piggyBac transposase recognition site,Yes,No,CRISPR
+Japan,"Cattle
+          (",Bos taurus,IARS,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=38&RegProcess=0,"Auburn UniversityAuburn, AL 36849US",Embryo edit,Fertilized eggs were injected according to the procedures for zygote injection. One-cell embryos were injected through 15â90?minutes post-fertilization and just before the beginning of the first cell division,No,No,CRISPR
+United States,"Channel catfish
+          (",Ictalurus punctatus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=96&RegProcess=0,"University of MissouriColumbia, MissouriUS",Embryo edit,"The CD163L1 SRCR 8 peptide sequence was created by making 38-nucleotide substitutions that produced 31-amino-acid changes to porcine exon 7, as shown in Fig. 1B. A neomycin cassette was included in the synthesized exon to enable screening for the modification.",Yes,No,CRISPR
+United States,"Pig
+          (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=148&RegProcess=0,"University of MarylandCollege Park, MD 20742US",Embryo edit,The in vivo fertilized zygotes were microinjected with a mixtureof sgRNAs and a SpCas9 RNA expression construct,No,No,CRISPR
+United States,"Pig
+          (",Sus scrofa domesticus,NANOS2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=181&RegProcess=0,"Soochow UniversitySuzhou 215123, JiangsuCN",Embryo edit,"TALEN pairs each for runx2, sp7a, mstnba and spp1a were microinjected into the one-cell common carp embryos at a concentration of 250?ng/ul per arm, respectively",No,No,CRISPR
+China,"Common Carp
+          (",Cyprinus carpio,"sp7, runx2, spp1, MSTN, sp7, MSTN, runx2, opg, bmp2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=206&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,The guide RNA and Cas9 mRNA were co-injected into one-cell-stage embryos,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,gsdf,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=107&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,Fertilized eggs (XX and XY) were divided into a control and a microinjected group. The microinjected groups were coinjected into the one-cell stage embryos with gRNA and Cas9 mRNA,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,Sf-1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=113&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,"The 5'-capped mRNAs (200 pg each) generated with in vitro transcription using the mMESSAGE mMACHINE SP6 Kit (Invitrogen, USA) were microinjected into one-cell-stage embryos",No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,RSPO1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=117&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Cloned cell line,Donor cells heterozygous for intended mutation were cloned,No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=169&RegProcess=0,"Jiangsu Livestock Embryo Engineering Laboratory, Nanjing Agricultural UniversityNanjing 210095CN",Embryo edit,,No,No,CRISPR
+China,"Rabbit
+          (",Oryctolagus cuniculus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=119&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Embryo edit,,No,No,CRISPR
+China,"Rabbit
+          (",Oryctolagus cuniculus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=120&RegProcess=0,"Yangzhou UniversityYangzhou, Jiangsu 225009CN",Cloned cell line,"MSTN gene knockout vector using clustered regularly interspaced short palindromic repeats ( CRISPR)/CRISPR-associated protein 9 ( Cas9). The knockout efficiency was evaluated in sheep ear fibroblasts (SEFs) by cleavage activity of transcription of guide RNA ( gRNA),",No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=134&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Embryo edit,"Approximately 20 ng/Âµ L of Cas9 mRNA and 5 ng/Âµ L of each sgRNA from the MSTN, ASIP, and BCO2 genes were pooled and microinjected into 20 sheep embryos",No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,"MSTN, ASIP, BCO2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=136&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Embryo edit,co-injecting one-cell-stage embryos with Cas9 mRNA and RNA guides targeting BCO2.,No,No,CRISPR
+China,"Sheep
+          (",Ovis aries,BCO2,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=138&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,Each one-cell stage fertilized embryos were injected with a mixture of gRNA and Cas9 mRNA,No,No,CRISPR
+China,"Southern Catfish
+          (",Silurus meridionalis,cyp26a1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=144&RegProcess=0,"Central Institute of Freshwater AquacultureBhubaneswar 751 002, OdishaIN",Embryo edit,LrTLR22Cas9 (33.3 pg) and linearized (ScaI digested) LrTLR22HR (66.3 pg) DNA constructs t were co-injected into rohu embryos at 1- to 4-cell stage,Yes,No,CRISPR
+India,"Farmed Carp
+          (",Labeo rohita,TLR22,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=97&RegProcess=0,"National Institute of Advanced Industrial Science and TechnologyIkeda, OsakaJP",Other,single plasmid transfection,No,No,CRISPR
+Japan,"Chicken
+          (",Gallus gallus,"OVA, OVM",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=85&RegProcess=0,"Department of Biological Sciences, Graduate School of Science, The University of TokyoBunkyo-ku, Tokyo 113-0033JP",Embryo edit,"microinjecting sgRNA and Cas9 protein into the region of zygote formation within 2 hr after queen oviposition, which allows one-step generation of biallelic knockout mutants in honeybee with high efficiency.",No,No,CRISPR
+Japan,"Honeybee
+          (",Apis mellifera,Mrjp1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=30&RegProcess=0,"Tokushima University2272-1 Ishii, Myozai-gun, Tokushima 779-3233JP",Embryo edit,introduction of Cas9 protein and single-guide RNA into in vitro fertilized zygotes by electroporation.,No,No,CRISPR
+Japan,"Pig
+          (",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=167&RegProcess=0,"Institute of Marine ResearchNordnes, NO-5817 BergenNO",Embryo edit,Microinjection of 50?ng/Âµl of each gRNA and 150?ng/Âµl of cas9 mRNA,No,No,CRISPR
+Norway,"Atlantic Salmon
+          (",Salmo salar,dnd,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=200&RegProcess=0,"University of MissouriColumbia, MissouriUS",Embryo edit,"the CRISPR/Cas9 system was delivered into in vitro produced presumptive porcine zygotes,",No,No,CRISPR
+United States,"Pig
+          (",Sus scrofa domesticus,"CD163, CD1D",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=153&RegProcess=0,"Northwest A&F UniversityYangling 712100, ShaanxiCN",Embryo edit,"by coinjection of one-cell stage embryos with Cas9 mRNA and sgRNAs targeting two functional genes (MSTN and FGF5), we successfully produced gene-modified goats with either one or both genes disrupted",No,No,CRISPR
+China,"Goat
+          (",Capra hircus,"FGF5, MSTN",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=59&RegProcess=0,"Jiangsu Livestock Embryo Engineering Laboratory, Nanjing Agricultural UniversityNanjing 210095CN",Embryo edit,,No,No,CRISPR
+China,"Goat
+          (",Capra hircus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=64&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,gRNA or Cas9 mRNA injeccted into fertilized eggs,No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,"aldh1a2, cyp26a1",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=115&RegProcess=0,"Jilin University, ChangchunJilin ProvinceCN",Cloned cell line,"Single-cell MSTN knockout colonies were used to generate cloned pigs via somatic cell nuclear transfer (SCNT), which resulted in 8 marker-gene-free cloned pigs with biallelic mutations.",No,No,CRISPR
+China,"Pig
+          (",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=172&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,"About 500 pg of the gRNA (150 ng/Âµl) and Cas9 mRNA (500 ng/Âµl), mixed at a molar ratio of 1:1, was microinjected directly into XX or XY fertilized eggs.",No,No,CRISPR
+United States,"Nile tilapia
+          (",Oreochromis niloticus,"AMH, amhΔ-y, amhy, AMHR2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=101&RegProcess=0,Institut Pasteur de MontevideoMontevideoUY,Embryo edit,We generated CRISPR/Cas9 mRNAs specific for ovine MSTN and microinjected them into the cytoplasm of ovine zygotes.,No,No,CRISPR
+Uruguay,"Sheep
+          (",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=132&RegProcess=0,"College of Life Sciences, Shihezi UniversityShihezi, XinjiangCN",Cloned cell line,"Cells were transfected with a plasmid (2 mg) expressing both Cas9 and gRNA targeting MSTN1 (single targeting), two plasmids (2 mg of each plasmids) expressing Cas9 and gRNA targeting MSTN-1 and PrP genes (double targeting), or four plasmids (2 mg of each plasmids) expressing Cas9 and gRNA targeting MSTN-1, PrP, BLG and NUP-1 genes (quadruple targeting) using Nucleofector",No,No,CRISPR
+China,"Goat
+          (",Capra hircus,"MSTN, NUP155, PrP, BLG",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=68&RegProcess=0,Southwest University400715 ChongqingCN,Embryo edit,"The guide RNA (gRNA) and Cas9 mRNA were coinjected into one-cell-stage embryos of the XY tilapia with the optimal concentrations of 50 ng/Âµl and 500 ng/Âµl, respectively.",No,No,CRISPR
+China,"Nile tilapia
+          (",Oreochromis niloticus,dmrt6,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=116&RegProcess=0,"Institute of Marine ResearchNordnes, NO-5817 BergenNO",Embryo edit,"fter fertilization, embryos were incubated 2â3 hours at 6â8Â°C until the first cell was visible. Eggs were subsequently injected with a mix containing 50 ng/Âµl gRNA and 150 ng/Âµl Cas9 mRNA",No,No,CRISPR
+Norway,"Atlantic Salmon
+          (",Salmo salar,"TYR, slc45a2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=203&RegProcess=0,,,,,,CRISPR
+Canada,"Pig
+
+  (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=215&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Argentina,"Pig
+
+  (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=212&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Dominican Republic,"Pig
+
+  (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=213&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Japan,"Nile tilapia
+
+  (",Oreochromis niloticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=214&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+United States,"Pig
+
+  (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=210&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Brazil,"Pig
+
+  (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=22&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Brazil,"Cattle
+
+  (",Bos taurus,PRLR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=12&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Colombia,"Pig
+
+  (",Sus scrofa domesticus,CD163,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=21&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Japan,"Olive flounder
+
+  (",Paralichthys olivaceus,LEPR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=18&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Japan,"Red sea bream
+
+  (",Pagrus major,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=16&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Japan,"Tiger pufferfish
+
+  (",Takifugu rubripes,LEPR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=17&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+United States,"Cattle
+
+  (",Bos taurus,PRLR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=9&RegProcess=1,,Cloned cell line,"nucleofected horse fetal fibroblasts with 1, 2 or 5√É¬Ç√Ç¬†√É¬Ç√Ç¬µg of 2 different gRNA/Cas9 plasmids targeting the first exon of√É¬Ç√Ç¬†MSTN.√É¬Ç√Ç",No,Yes,CRISPR
+Argentina,"Horse
+
+  (",Equus caballus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=211&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Brazil,"Cattle
+
+  (",Bos taurus,PRLR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=10&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Japan,"Red sea bream
+
+  (",Pagrus major,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=23&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Japan,"Tiger pufferfish
+
+  (",Takifugu rubripes,LEPR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=24&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Argentina,"Cattle
+
+  (",Bos taurus,PRLR,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=11&RegProcess=1,,Other,,No,Yes,CRISPR
+Argentina,"Cattle
+
+  (",Bos taurus,"PRLR, Pc POLLED",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=13&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Brazil,"Nile tilapia
+
+  (",Oreochromis niloticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=20&RegProcess=1,,Embryo edit,,No,Yes,CRISPR
+Argentina,"Nile tilapia
+
+  (",Oreochromis niloticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=19&RegProcess=1,,,,,,CRISPR
+Japan,"Chicken
+",Gallus gallus,OVM,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=86&RegProcess=0,"Hiroshima University Higashi-Hiroshima, Hiroshima JP",Other,PGC were transfected and injected into the subgerminal cavity of an embryo recipient,No,No,TALEN
+United States,"Channel catfish
+",Ictalurus punctatus,fsh,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=92&RegProcess=0,"Auburn University Auburn, AL 36849 US",Embryo edit,Fertilized eggs were electroporated with TALEN plasmids targetin fsh,No,No,TALEN
+China,"Cattle
+",Bos taurus,"SRY, ZFY, DDX3Y, Eif2s3y",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=53&RegProcess=0,"China Agricultural University Beijing, 100193 CN",Cloned cell line,"The gene-targeting vector pSRY-EGFP was constructed as shown in Fig. 2a. We introduced Sry TALEN pair 1, along with a 9 kb dsDNA donor construct pSRY-EGFP that contained the self-cleaving peptide the 2A regions of Thosea asigna virus (T2A) incorporated EGFP (T2A-EGFP) and a positive selection marker Neomycin (NEO) flanked by short homologous arms (843 bp and 910 bp for 5' and 3' arms, respectively) and a negative selection marker diphtheria toxin A (DTA)",Yes,No,TALEN
+New Zealand,"Cattle
+",Bos taurus,PMEL,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=49&RegProcess=0,AgResearch Ltd NZ,Embryo edit,microinjection of plasmid and ssODN,No,No,TALEN
+China,"Pig
+",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=168&RegProcess=0,"Institute of Animal Sciences, Chinese Academy of Agricultural Sciences Beijing CN",Cloned cell line,,No,No,TALEN
+South Korea,"Pig
+",Sus scrofa domesticus,GGTA1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=2&RegProcess=0,Optipharm Inc Cheongju 28158 KR,Cloned cell line,"Approximately 1 Ã 106 fetal fibroblasts weretransfected with 1.7 Âµg pX330-501 vector and 3.3 Âµg donor vector. After 48 h, the cells were transferred to ten 10-cm plates with selective medium containing G418 (600 Âµg/mL, promega). After 10 days, the resistant colonies were selected and expanded, and a smallsample of every colony was subjected togenotyping.",No,No,TALEN
+China,"Cattle
+",Bos taurus,LacS,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=54&RegProcess=0,Inner Mongolia University Hohhot 010021 CN,Cloned cell line,,Yes,No,TALEN
+China,"Silkworm
+",Bombyx mori,MaSp1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=33&RegProcess=0,"Chinese Academy of Sciences, Shanghai CN",Other,Germ line transformation was performed by delivering mixed solutions of TALEN mRNAs and donor plasmids into preblastoderm embryos of B. mori.,Yes,No,TALEN
+China,"Sterlet
+",Acipenser ruthenus,ntl,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=26&RegProcess=0,"Chinese Academy of Sciences, Shanghai CN",Embryo edit,Each gRNA was transcribed and mixed with Cas9 nuclease. The Cas9 nuclease/gRNA at was microinjected into the animal pole of one-cell stage embryos.,Yes,No,TALEN
+New Zealand,"Cattle
+",Bos taurus,BLG,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=39&RegProcess=0,AgResearch Ltd NZ,Embryo edit,microinjection of plasmid and ssODN,No,No,TALEN
+China,"Goat
+",Capra hircus,LF,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=61&RegProcess=0,"Jiangsu Co-Innovation Center for Prevention and Control of Important Animal Infectious Diseases and Zoonosis/College of animal science and technology, Yangzhou University Yangzhou, Jiangsu 225009 CN",Cloned cell line,insertion of hLF cDNA in the goat beta-lactoglobulin (BLG) locus with homology-directed repair.,Yes,No,TALEN
+China,"Pig
+",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=178&RegProcess=0,"Yanbian University Yanji, 133002 CN",Cloned cell line,"Aliquots of 1 Ã 106 PFF cells were electroporated with 40 Âµg plasmid DNA encoding the left and right MSTN-TALENs and the surrogate reporter at a weight ratio of 2 : 2 : 1, respectively, according to the manufacturer's protocol.",No,No,TALEN
+United Kingdom,"Chicken
+",Gallus gallus,DDX4,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=77&RegProcess=0,"The Roslin Institute, University of Edinburgh idlothian EH25 9RG UK",Other,TALEN-mediated homologous recombination to target the chicken DDX locus,Yes,No,TALEN
+China,"Common Carp
+",Cyprinus carpio,"sp7, runx2, spp1, MSTN, sp7, MSTN, runx2, opg, bmp2",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=206&RegProcess=0,"Soochow University Suzhou 215123, Jiangsu CN",Embryo edit,"TALEN pairs each for runx2, sp7a, mstnba and spp1a were microinjected into the one-cell common carp embryos at a concentration of 250?ng/ul per arm, respectively",No,No,TALEN
+China,"Pig
+",Sus scrofa domesticus,GGTA1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=160&RegProcess=0,"College of Animal Science and Technology, Yunnan Agricultural University Kunming, 650201 CN",Cloned cell line,,No,No,TALEN
+China,"Sheep
+",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=135&RegProcess=0,Yunnan Agricultural University Kunming 650201 CN,Cloned cell line,TALEN plasmid specific for ovine MSTN and transfected it into fetal fibroblast cells of STH sheep.,No,No,TALEN
+United States,"Cattle
+",Bos taurus,polled,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=50&RegProcess=0,Recombinetics US,Cloned cell line,The repair template was provided as a plasmid,Yes,No,TALEN
+China,"Cattle
+",Bos taurus,SP110,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=41&RegProcess=0,"Northwest A&F University Yangling 712100, Shaanxi CN",Cloned cell line,Nine of the transgenic cell colonies were used as donor cells to produce cloned transgenic cattle.,Yes,No,TALEN
+China,"Goat
+",Capra hircus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=66&RegProcess=0,"Yangzhou University Yangzhou, Jiangsu 225009 CN",Cloned cell line,Fibroblasts from pedigreed goats were co-transfected with MTAL-2,No,No,TALEN
+Japan,"Pig
+",Sus scrofa domesticus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=174&RegProcess=0,"School of Agriculture, Meiji University Kawasaki JP",Cloned cell line,Cells were cloned,No,No,TALEN
+Japan,"Pig
+",Sus scrofa domesticus,"GGTA1, CMAH",https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=190&RegProcess=0,"Division of Organ Transplantation, Department of Surgery, Osaka University Graduate School of Medicine Osaka 565-0871 JP",Cloned cell line,,No,No,TALEN
+China,"Yellow catfish
+",Tachysurus fulvidraco,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=192&RegProcess=0,"MOE Key Laboratory of Model Animal for Disease Study, Model Animal Research Center, Nanjing University Nanjing CN",Embryo edit,,No,No,TALEN
+South Korea,"Chicken
+",Gallus gallus,OVA,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=84&RegProcess=0,"Seoul National University, Gwanak-gu 151-921 KR",Other,"In this study, in combination with chicken primordial germ cell line with germ-line transmission capacity, we generated the ovalbumin gene knockout chickens by TALEN-mediated gene targeting",No,No,TALEN
+United States,"Cattle
+",Bos taurus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=42&RegProcess=0,"Acceligen Inc. Eagan, MN US",Embryo edit,The zygotes were subjected to a single 2â5pl injection of 2 ng/ul TALEN mRNA,No,No,TALEN
+United States,"Sheep
+",Ovis aries,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=131&RegProcess=0,"Acceligen Inc. Eagan, MN US",Embryo edit,The zygotes were subjected to a single 2â5pl injection of 2 ng/ul TALEN mRNA,No,No,TALEN
+China,"Pig
+",Sus scrofa domesticus,GGTA1,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=162&RegProcess=0,"Jilin University, Changchun Jilin Province CN",Embryo edit,,No,No,TALEN
+Argentina,Cattle,Bos taurus x Bos taurus indicus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=15&RegProcess=1,,Embryo edit,,No,Yes,TALEN
+Brazil,Cattle,Bos taurus x Bos taurus indicus,MSTN,https://www.isaaa.org/animalbiotechdatabase/details/default.asp?ABDEntryID=14&RegProcess=1,,Embryo edit,,No,Yes,TALEN
