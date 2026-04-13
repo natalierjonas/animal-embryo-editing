@@ -149,7 +149,7 @@
 </head>
 
 <body>
-    <img src="title.png" alt="Can Scientists Create Unicorns?" style="width:100%; display:block; padding: 2em 0 1em 3em; box-sizing:border-box;">
+    <img src="new_unicorn.png" alt="Can Scientists Create Unicorns?" style="width:100%; display:block; padding: 0 0 1em 0; box-sizing:border-box; margin-left: -10em; margin-top: -8em;">
     <div class="article-wrap">
         <p class="dek" style="margin-top: 0.5em;">The genetic engineering and editing of animals is on the uptick, driven by an increasingly unobstructed regulatory landscape and billions of dollars in private investment. Some companies are even making mythical animals.</p>
         <div class="left-margin-image-wrap">
@@ -188,35 +188,58 @@
                 </div>
             </div>
         </div>
-        <div class="step" id="step-two">
-            <p>
-                Although using genetic engineering to create new animals is a relatively new phenomenon, CRISPR,
-                a technology capable of germline (heritable) and somatic (non-heritable) editing to modify DNA,
-                has been used to modify animal DNA for more than a decade.
-            </p>
-
-            <p>
-                The CRISPR market is expected to grow from
-                <a href="https://www.openpr.com/news/4374759/crispr-gene-editing-market-set-for-explosive-growth-to-usd-12-78">$4.21 billion</a>
-                in 2023 to
-                <a href="https://www.openpr.com/news/4374759/crispr-gene-editing-market-set-for-explosive-growth-to-usd-12-78">$12.78 billion</a>
-                in 2033.
-            </p>
+        <div id="step-two" class="crossfade-step">
+            <div class="crossfade-pin">
+                <div id="crispr-p1" class="crossfade-slide">
+                    <p>
+                        Although using genetic engineering to create new animals is a relatively new phenomenon, CRISPR,
+                        a technology capable of germline (heritable) and somatic (non-heritable) editing to modify DNA,
+                        has been used to modify animal DNA for more than a decade.
+                    </p>
+                </div>
+                <div id="crispr-p2" class="crossfade-slide">
+                    <p>
+                        The CRISPR market is expected to grow from
+                        <a href="https://www.openpr.com/news/4374759/crispr-gene-editing-market-set-for-explosive-growth-to-usd-12-78">$4.21 billion</a>
+                        in 2023 to
+                        <a href="https://www.openpr.com/news/4374759/crispr-gene-editing-market-set-for-explosive-growth-to-usd-12-78">$12.78 billion</a>
+                        in 2033.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="step" id="step-three">
-            <p>
-                According to data scraped and analyzed from the International Service for the Acquisition of Agri-biotech Applications (ISAAA),
-                of all experiments that used CRISPR-Cas9 or TALEN to edit an animal genome for agricultural applications,
-                approximately 71% affected the germline, meaning the edited genetic code would be inheritable.
-                Germline editing in animals is subject to stringent regulation in the U.S. and wholly banned in humans.
-                Approximately 89% of such experiments were not granted regulatory approval, meaning they could not be commercialized in their respective countries.
-            </p>
+        <div id="step-three" class="crossfade-step">
+            <div class="crossfade-pin">
+                <div id="isaaa-p1" class="crossfade-slide">
+                    <p>
+                        According to data scraped and analyzed from the International Service for the Acquisition of Agri-biotech Applications (ISAAA),
+                        of all experiments that used CRISPR-Cas9 or TALEN to edit an animal genome for agricultural applications,
+                        approximately 71% affected the germline, meaning the edited genetic code would be inheritable.
+                        Germline editing in animals is subject to stringent regulation in the U.S. and wholly banned in humans.
+                    </p>
+                </div>
+                <div id="isaaa-p2" class="crossfade-slide">
+                    <p>
+                        Approximately 89% of such experiments were not granted regulatory approval,
+                        meaning they could not be commercialized in their respective countries.
+                    </p>
+                </div>
+            </div>
         </div>
 
     </div>
 </div>
 
-        <p>Although China produces the most experiments, none were granted regulatory approval. Japan, Brazil and Argentina had the most approvals, relating to experiments ranging from editing muscles in the Nile tilapia to creating livestock cattle with shorter hair. Of Argentina's six studies, all were approved by the Argentine Biosafety Commission.</p>
+        <div id="step-china" class="crossfade-step">
+            <div class="crossfade-pin">
+                <div id="china-p1" class="crossfade-slide">
+                    <p>Although China produces the most experiments, none were granted regulatory approval.</p>
+                </div>
+                <div id="china-p2" class="crossfade-slide">
+                    <p>Japan, Brazil and Argentina had the most approvals, relating to experiments ranging from editing muscles in the Nile tilapia to creating livestock cattle with shorter hair. Of Argentina's six studies, all were approved by the Argentine Biosafety Commission.</p>
+                </div>
+            </div>
+        </div>
         
         <div class="graphic-stage" id="graph1-stage">
             <div class="graphic-sticky">
@@ -317,11 +340,23 @@ const g3 = document.getElementById("graph3");
 const g4 = document.getElementById("graph4");
 const bioP1 = document.getElementById("bio-p1");
 const bioP2 = document.getElementById("bio-p2");
+const chinaP1 = document.getElementById("china-p1");
+const chinaP2 = document.getElementById("china-p2");
+const crispP1 = document.getElementById("crispr-p1");
+const crispP2 = document.getElementById("crispr-p2");
+const isaaaP1 = document.getElementById("isaaa-p1");
+const isaaaP2 = document.getElementById("isaaa-p2");
 
 g3.style.opacity = 1;
 g4.style.opacity = 0;
 bioP1.style.opacity = 1;
 bioP2.style.opacity = 0;
+chinaP1.style.opacity = 1;
+chinaP2.style.opacity = 0;
+crispP1.style.opacity = 1;
+crispP2.style.opacity = 0;
+isaaaP1.style.opacity = 1;
+isaaaP2.style.opacity = 0;
 
 function setOpacity(el, value, smooth) {
     el.style.transition = smooth ? 'opacity 0.5s ease' : 'none';
@@ -341,7 +376,7 @@ const scroller = scrollama();
 
 scroller
   .setup({
-      step: "#step-one, #step-graph",
+      step: "#step-one, #step-two, #step-three, #step-china, #step-graph",
       offset: 0.5,
       progress: true
   })
@@ -349,6 +384,15 @@ scroller
       if (response.element.id === "step-one") {
           setOpacity(bioP1, 1, true);
           setOpacity(bioP2, 0, true);
+      } else if (response.element.id === "step-two") {
+          setOpacity(crispP1, 1, true);
+          setOpacity(crispP2, 0, true);
+      } else if (response.element.id === "step-three") {
+          setOpacity(isaaaP1, 1, true);
+          setOpacity(isaaaP2, 0, true);
+      } else if (response.element.id === "step-china") {
+          setOpacity(chinaP1, 1, true);
+          setOpacity(chinaP2, 0, true);
       } else {
           setOpacity(g3, 1, true);
           setOpacity(g4, 0, true);
@@ -357,9 +401,15 @@ scroller
   .onStepProgress((response) => {
       const p = response.progress; // 0 → 1 as user scrolls through the pinned section
       if (response.element.id === "step-one") {
-          crossfade(bioP1, bioP2, p, 0.55, 0.85);
+          crossfade(bioP1, bioP2, p, 0.60, 0.80);
+      } else if (response.element.id === "step-two") {
+          crossfade(crispP1, crispP2, p, 0.60, 0.80);
+      } else if (response.element.id === "step-three") {
+          crossfade(isaaaP1, isaaaP2, p, 0.60, 0.80);
+      } else if (response.element.id === "step-china") {
+          crossfade(chinaP1, chinaP2, p, 0.60, 0.80);
       } else {
-          crossfade(g3, g4, p, 0.25, 0.5);
+          crossfade(g3, g4, p, 0.60, 0.80);
       }
   })
   .onStepExit((response) => {
@@ -367,6 +417,15 @@ scroller
       if (response.element.id === "step-one") {
           setOpacity(bioP1, goingDown ? 0 : 1, true);
           setOpacity(bioP2, goingDown ? 1 : 0, true);
+      } else if (response.element.id === "step-two") {
+          setOpacity(crispP1, goingDown ? 0 : 1, true);
+          setOpacity(crispP2, goingDown ? 1 : 0, true);
+      } else if (response.element.id === "step-three") {
+          setOpacity(isaaaP1, goingDown ? 0 : 1, true);
+          setOpacity(isaaaP2, goingDown ? 1 : 0, true);
+      } else if (response.element.id === "step-china") {
+          setOpacity(chinaP1, goingDown ? 0 : 1, true);
+          setOpacity(chinaP2, goingDown ? 1 : 0, true);
       } else {
           setOpacity(g3, goingDown ? 0 : 1, true);
           setOpacity(g4, goingDown ? 1 : 0, true);
