@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gene-editing... unicorns?</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-family: 'Source Code Pro', monospace;
+            text-rendering: optimizeLegibility;
+            background: black;
+            color: white;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .header {
+            padding: 3em 0;
+        }
+
+        a {
+            color: #999;
+            text-decoration: none;
+        }
+
+        .footer {
+            background: black;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 4em;
+            padding: 4em 0;
+        }
+
+        figure {
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: white;
+        }
+
+        h1 {
+            font-family: 'Source Code Pro', monospace;
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin: 1rem 0 2rem 0.5rem;
+            color: #756472c8
+        }
+
+        .dek {
+            font-family: 'Roboto', monospace;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #a89c9c;
+            line-height: 1.5;
+            padding-left: 1.5em;
+            text-align: right;
+            margin-bottom: 2em;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        .full-width figure {
+            text-align: center;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+        .quotation {
+            margin: 2rem 0;
+            padding-left: 3rem;
+            font-style: italic;
+        }
+
+        .quotation .attribution {
+            display: block;
+            margin-top: 0.5rem;
+            font-style: normal;
+            font-size: 0.9rem;
+            color: white;
+        }
+        code {
+            font-family: 'Source Code Pro', monospace;
+            background: black;
+            color: white;
+        }
+
+        /* margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    </style>
+    <link href="scrolly-styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+</head>
+
+<body>
+    <img src="title.png" alt="Can Scientists Create Unicorns?" style="width:100%; display:block; padding: 2em 0 1em 3em; box-sizing:border-box;">
+    <div class="content">
+        <p class="dek" style="margin-top: 0.5em;">The genetic engineering and editing of animals is on the uptick, driven by an increasingly unobstructed regulatory landscape and billions of dollars in private investment. Some companies are even making mythical animals.</p>
+        <p>As industry interest in creating and commercializing gene-edited animals heightens, so have appetites grown for more “fringe” exploration into the possibilities and limits of the technology. Biotech companies have already proven their ability to <a href="https://colossal.com/crispr-breakthrough-colossals-woolly-mouse-could-pave-the-way-for-mammoth-revival/">create new species</a> and <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10828428/">optimize livestock species</a> to produce more animal proteins such as milk, eggs and meat. Experiments involving genetic engineering animals are heavily often regulated and restricted in the United States, although now less so as a result of an increasingly lenient FDA. Billions of dollars flow into an overwhelmingly privately-held array of biotech companies, funding both mainstream and unorthodox experimentation in animals.</p>
+        <p>Renown “biohacker” Josie Zayner, <a href=”https://amateurgods.substack.com/p/horse-dna-needed-for-unicorn-r-and?utm_source=substack&publication_id=679204&post_id=192977747&utm_medium=email&utm_content=share&utm_campaign=email-share&triggerShare=true&isFreemail=true&r=2kmoqc&triedRedirect=true”>recently solicited</a> horse owners to send her company, The Embryo Corporation, horse DNA in order to create a more robust equine genome map. Using such data, she hopes to create the first unicorn by genetically engineering horse embryos.</p>
+    </div>
+
+    <section id=”scrolly-ai2html” class=”scrolly-container”>
+        <div class=”sticky-thing”>
+            <img src=”graph1_sc.png” alt=”Animal Embryo-Editing Experiments are Rarely Approved” style=”width:100%; max-height:100vh; object-fit:contain;”>
+        </div>
+        <div class=”steps-container”>
+            <div class=”step” id=”step-one”>
+                <div>
+                    <p>Approximately <a href=”https://www.pacb.com/blog/how-far-weve-come-part-3-animal-genomics/”>0.2%</a> of about 1.66 million species have undergone nuclear genome sequencing. Even so, the data is often riddle with gaps. Through crowdsourcing genetic data, Zayner hopes to gather enough information to create a unicorn. Zayner, who runs a company that sells at-home CRISPR kits and injected herself with a self-created DIY gene therapy on a livestream in 2017, <a href=”https://amateurgods.substack.com/p/horse-dna-needed-for-unicorn-r-and?utm_source=substack&publication_id=679204&post_id=192977747&utm_medium=email&utm_content=share&utm_campaign=email-share&triggerShare=true&isFreemail=true&r=2kmoqc&triedRedirect=true”>recently announced</a> The Embryo Corporation's success in implanting gene-edited horse embryos to inform “unicorn research.”</p>
+                </div>
+            </div>
+            <div class=”step” id=”step-two”>
+                <div>
+                    <p>Although using genetic engineering to create new animals is a relatively new phenomenon, CRISPR, a technology capable of germline (heritable) and somatic (non-heritable) editing to modify DNA, has been used to modify animal DNA for more than a decade. Nearly all animal gene-editing experiments logged by the International Service for the Acquisition of Agri-biotech Applications (ISAAA) used CRISPR-Cas9. The CRISPR market is expected to grow from <a href=”https://www.openpr.com/news/4374759/crispr-gene-editing-market-set-for-explosive-growth-to-usd-12-78”>$4.21 billion</a> in 2023 to <a href=”https://www.openpr.com/news/4374759/crispr-gene-editing-market-set-for-explosive-growth-to-usd-12-78”>$12.78 billion</a> in 2033, driven by new legislative pathways encouraging gene-editing innovation and increasing investment in the field.</p>
+                </div>
+            </div>
+            <div class=”step” id=”step-three”>
+                <div>
+                    <p>According to data scraped and analyzed from the International Service for the Acquisition of Agri-biotech Applications (ISAAA), of all experiments that used CRISPR-Cas9 or TALEN to edit an animal genome for agricultural applications, approximately 71% affected the germline, meaning the edited genetic code would be inheritable. Germline editing in animals is subject to stringent regulation in the U.S. and wholly banned in humans. Approximately 89% of such experiments were not granted regulatory approval, meaning they could not be commercialized in their respective countries.</p>
+                </div>
+            </div>
+            <div class=”step” id=”step-four”>
+                <div>
+                    <p>Although China produces the most experiments, none were granted regulatory approval. Japan, Brazil and Argentina had the most approvals, relating to experiments ranging from editing muscles in the Nile tilapia to creating livestock cattle with shorter hair. Of Argentina's six studies, all were approved by the Argentine Biosafety Commission.</p>
+                    <div class=”columns” style=”margin:0; align-items:flex-start;”>
+                      <div class=”column” style=”flex: none; width: 37.5%; color:white;”>
+                        <p>The United States granted two experiments, conducted in 2022 and 2025, the ability to commercialize their gene-edited animals for agricultural uses.</p>
+                        <p>The U.S. denied 28 other projects.</p>
+                      </div>
+                      <div class=”column” style=”flex: none; width: 62.5%;”>
+                        <img src=”graph2_sc.png” alt=”Animal embryo experimentation in the U.S., by species” style=”width:100%; display:block;”>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class=”step” id=”step-five”>
+                <div>
+                    <p>Human interference in animal breeding is not a new phenomenon, having shaped human interaction with varied species for approximately 10,000 years. Selective breeding, abetted by modern technology, has fortified the existence of desired traits in target species — crops are edited to better resist disease, livestock are modified and bred to produce more meat and withstand higher tempratures. But, applications of gene-editing are not all inherently utilitarian.</p>
+                </div>
+            </div>
+            <div class=”step” id=”step-six”>
+                <div>
+                    <h2 class=”subhead”>Heed the glowing rabbit:</h2>
+                    <p>Private biotech companies, such as Zayner's The Embryo Corporation and associated venture-capital backed Los Angeles Project, hope to modify animal embryos using CRISPR-Cas9 and a single, CRISPR-engineered injection capable of changing an organism's DNA. Logged genetic changes are then fed to AI, creating a database documenting cause-and-effect and eventually “first-of-its-kind robotic automation of embryo editing,” as <a href=”https://www.piratewires.com/p/harnessing-the-breath-of-life”>reported</a> by PirateWires in February 2025.</p>
+                    <p>The Embryo Corporation plans to create glow-in-the-dark rabbits by gene-editing rabbit embryos to produce GFP, a fluorescent protein. A <a href=”https://manoa.hawaii.edu/news/article.php?aId=5906”>consortium of researchers</a> at the University of Hawai'i at Mānoa and the University of Istanbul first created fluorescent rabbits, which use jellyfish DNA to glow under black light, in 2013.</p>
+                    <p>A number of zebrafish, modified by a Brazilian company (GloFish) to be fluorescent, <a href=”https://www.science.org/content/article/transgenic-glowing-fish-invades-brazilian-streams”>escaped their isolated fish farms</a> into creeks in Brazil's Atlantic Forest in 2022. Native to tropical freshwater habitats in South Asia, the zebrafish have no natural predators, and as a result are thriving to the consternation of local biologists.</p>
+                    <p>The Embryo Corporation, too, alleges they created glow-in-the-dark rabbits in late 2025.</p>
+                </div>
+            </div>
+            <div class=”step” id=”step-seven”>
+                <div>
+                    <div class=”quotation”>
+                        “The embryos rest in their broth to keep them alive, surrounded by a balance of nitrogen, CO₂, and oxygen that imitates the inside of a living body. And then, days later, if everything went right, the jellyfish gene we slipped into their DNA switches on and the embryos glow. A pulse of green light in the darkness. Proof that the code took. And it did.”
+                        <span class=”attribution”><a href=”https://amateurgods.substack.com/p/how-embryo-corp-took-the-first-step”>wrote</a> Josie Zayner, on her Substack “Amateur Gods.”</span>
+                    </div>
+                </div>
+            </div>
+            <div class=”step” id=”step-eight”>
+                <div>
+                    <h2 class=”subhead”>The past and present road to “de-extinction”:</h2>
+                    <p>A future rife with successful genome editing can boost populations threatened with extinction or bring back animals long extinct, most notably evidenced in projects undertaken by Colossal Biosciences. Colossal announced that they used CRISPR to “resurrected” the dire wolf — a species that went extinct approximtaely 13,000 years ago — using a domesticated dogs as surrogates. The first two pups were born in October 2024, named Romulas and Remus.</p>
+                    <p>Colossal remains intent on “resurrecting” the wooly mammoth by combining its genes with Asian elephant DNA. Colossal successfully engineered a “Colossal Woolly Mouse” in 2025 and hope to “revive” the wooly mammoth by 2028.</p>
+                    <p>Recent <a href=”https://pmc.ncbi.nlm.nih.gov/articles/PMC12881173/”>research</a> characterizes the influx of animal gene- and embryo-editing as a potential avenue to explore new conservation techniques, a lesser explored realm of impact. Genes can be edited to induce better adaptation traits in animals, particularly species most disadvantaged by a changing climate and related issues like pollution, by targeting alleles to improve adaptability. Currently, genome editing is most often used for population control, not for “de-extinction” or facilitated adaptation.</p>
+                    <p>But, bioethicists, environmentalists and researchers have expressed fears regarding potential offtarget risks and impacts of such technology to edit animal DNA in all such applications.</p>
+                </div>
+            </div>
+            <div class=”step” id=”step-nine”>
+                <div>
+                    <h2 class=”subhead”>2026, the Year of the Horse (and its clone):</h2>
+                    <p>The Przewalski's horse, saved from extinction by ex situ breeding, resulted in the population exploding from near-extinction to nearly 3,000 individuals today. Clones of Przewalski's horses followed soon after their population reinvigoration, borne to domesticated horse surrogates in 1980. Researchers utilized cryopreserved cells from the target species and cross-species somatic cell nuclear transfer. The success of the experiment presented an early, critical new look at using gene-editing for conservation and restoration breeding. Cloning any species necessitates a surrogate, whose mitochondrial genetic materials are passed down to the cloned animal, <a href=”https://pmc.ncbi.nlm.nih.gov/articles/PMC11898140/”>as noted by researchers</a> studying Przewalski's Horse in 2025.</p>
+                    <p>Experiments involving cloning animals, first successfully presented in 1996 after the birth of the first cloned mammal, Dolly the sheep, have had a litany of offtarget and surprising consequences and applications. Horses, although not commonly edited for agricultural purposes, are commonly gene-edited to maximizing athletic ability and performance. Ingrained pro-selective attitudes in equine sports regarding pedigree and Thoroughbred breeding have proven horse racing and polo a fertile ground for horse embryo editing experimentation.</p>
+                    <p>Argentine company Kheiron Biotech, which specializes in equine cloning, created the first MSTN-edited horse embryos in 2020. The MSTN gene, where myostatin is encoded, can be changed to affect muscle growth in animals and humans.</p>
+                    <img src=”graph3_sc.png” alt=”Researchers are editing the myostatin gene (MSTN), associated with meat tenderness and musculature, in animals” style=”width:100%; display:block; margin:1em 0;”>
+                    <p>Kheiron's successfully cloned foals, cloned from a prize-winning horse nicknamed “Polo Pureza” (“Polo Purity”) and inserted with genes edited using CRISPR, were born in 2024. The lucrativity in selling cloned prize-winning horses, such as the 2010 sale of famed polo horse “Cuartetera” for $800,000, inspired a burgeoning industry in Argentina. Still yet, the Argentine Polo Associated banned genetically engineered horses from competing in 2025.</p>
+                    <p>Zayner's company, The Embryo Corporation, plans to implant genes associated with horn-growth from a different species — potentially deer or antelope — into horse embryos incubated in an artificial womb. The company plans to iterate the process (using AI to algorithmically “guess and check”) until they have created a unicorn.</p>
+                    <p>The Embryo Corporation has hit a few roadblocks on their road to creating the first unicorn. Horses have much longer gestational periods than fish or rabbits, and nurturing a horse embryo growth is an arduous process. Horses also need more attentive care after birth than hamsters or fish (other species the company alleges they have successful gene-edited embryos of).</p>
+                </div>
+            </div>
+            <div class=”step” id=”step-ten”>
+                <div>
+                    <div class=”quotation”>
+                        “This is where science meets science fiction. And we're making it real”
+                        <span class=”attribution”><a href=”https://building.life”>the site reads.</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="content">
+            <p>Find this article's data and code <a href="https://github.com/natalierjonas/animal_embryo_editing/tree/main">here</a>.</p>
+        </div>
+    </div>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+    <script>
+
+        function hideNote() {
+            // annotation: #path-1, #text-1, #path-2, #text-2
+            d3.select("#path-1").classed('hidden', true)
+            d3.select("#text-1").classed('hidden', true)
+            d3.select("#path-2").classed('hidden', true)
+            d3.select("#text-2").classed('hidden', true)
+        }
+
+        /* Scrollytelling code goes under here */
+        hideNote()
+
+        d3.select("#step-one").on('stepout', function (e) {
+            if (e.detail.direction === 'up') {
+                // undo the changes from step one
+                hideNote()
+            }
+        })
+
+        d3.select("#step-one").on('stepin', function (e) {
+            console.log("Got to step one")
+            // undo changes from step two
+            d3.selectAll("[data-name='africa'] path").style('stroke', 'none')
+
+            // do changes for step one
+            d3.select("#path-1").classed('hidden', false)
+            d3.select("#text-1").classed('hidden', false)
+            d3.select("#path-2").classed('hidden', false)
+            d3.select("#text-2").classed('hidden', false)
+        })
+
+        d3.select("#step-two").on('stepin', function (e) {
+
+            // undo changes from step one
+            hideNote()
+
+            // do changes for step two
+            console.log("Got to step two")
+            d3.selectAll("[data-name='africa'] path").style('stroke', 'black')
+        })
+
+        d3.select("#step-three").on('stepin', function (e) {
+            // undo changes from step two
+            d3.selectAll("[data-name='africa'] path").style('stroke', 'none')
+        })
+
+
+    </script>
+
+
+    <script>
+        /*************
+        
+        This is the JavaScript that makes the scrolly work 
+        
+        *************/
+
+        /* 
+        This part attaches a scroll to the element with id="scrolly-ai2html"    
+        */
+        (() => {
+            const scroller = scrollama()
+
+            scroller
+                .setup({
+                    parent: document.querySelector("#scrolly-ai2html"),
+                    step: ".step",
+                    offset: 0.6,
+                    debug: false,
+                })
+                .onStepEnter(function ({ element, index, direction }) {
+                    const event = new CustomEvent("stepin", { detail: { direction: direction } })
+                    element.dispatchEvent(event)
+                })
+                .onStepExit(function ({ element, index, direction }) {
+                    const event = new CustomEvent("stepout", { detail: { direction: direction } })
+                    if (direction === "up" && element.previousElementSibling) {
+                        const event = new CustomEvent("stepin", { detail: { direction: direction } })
+                        element.previousElementSibling.dispatchEvent(event)
+                    }
+                })
+
+            window.addEventListener("resize", scroller.resize)
+        })()
+
+    </script>
+    <style>
+        /* Change this to adjust the padding between steps */
+        .step {
+            margin-bottom: 70vh;
+        }
+    </style>
+
+    <script type="text/javascript">
+            (function () {
+                // only want one resizer on the page
+                if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+                document.documentElement.className += " g-resizer-v3-init";
+                // require IE9+
+                if (!("querySelector" in document)) return;
+                function resizer() {
+                    var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+                        widthById = {};
+                    elements.forEach(function (el) {
+                        var parent = el.parentNode,
+                            width = widthById[parent.id] || parent.getBoundingClientRect().width,
+                            minwidth = el.getAttribute("data-min-width"),
+                            maxwidth = el.getAttribute("data-max-width");
+                        widthById[parent.id] = width;
+
+                        if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                            el.style.display = "block";
+                        } else {
+                            el.style.display = "none";
+                        }
+                    });
+                    try {
+                        if (window.parent && window.parent.$) {
+                            window.parent.$("body").trigger("resizedcontent", [window]);
+                        }
+                        if (window.require) {
+                            require(['foundation/main'], function () {
+                                require(['shared/interactive/instances/app-communicator'], function (AppCommunicator) {
+                                    AppCommunicator.triggerResize();
+                                });
+                            });
+                        }
+                    } catch (e) { console.log(e); }
+                }
+
+                document.addEventListener('DOMContentLoaded', resizer);
+                // feel free to replace throttle with _.throttle, if available
+                window.addEventListener('resize', throttle(resizer, 200));
+
+                function throttle(func, wait) {
+                    // from underscore.js
+                    var _now = Date.now || function () { return new Date().getTime(); },
+                        context, args, result, timeout = null, previous = 0;
+                    var later = function () {
+                        previous = _now();
+                        timeout = null;
+                        result = func.apply(context, args);
+                        if (!timeout) context = args = null;
+                    };
+                    return function () {
+                        var now = _now(), remaining = wait - (now - previous);
+                        context = this;
+                        args = arguments;
+                        if (remaining <= 0 || remaining > wait) {
+                            if (timeout) {
+                                clearTimeout(timeout);
+                                timeout = null;
+                            }
+                            previous = now;
+                            result = func.apply(context, args);
+                            if (!timeout) context = args = null;
+                        } else if (!timeout && options && options.trailing !== false) {
+                            timeout = setTimeout(later, remaining);
+                        }
+                        return result;
+                    };
+                }
+
+
+            })();
+    </script>
+    <script>
+
+        // ai2html resizer
+        (function() {
+            function resizeAi2html() {
+                var boxes = document.querySelectorAll('.ai2html');
+                Array.prototype.forEach.call(boxes, function(box) {
+                    var w = box.offsetWidth;
+                    var artboards = box.querySelectorAll('.g-artboard');
+                    Array.prototype.forEach.call(artboards, function(ab) {
+                        var min = parseInt(ab.getAttribute('data-min-width') || 0, 10);
+                        var max = parseInt(ab.getAttribute('data-max-width') || 99999, 10);
+                        ab.style.display = (w >= min && w <= max) ? 'block' : 'none';
+                    });
+                });
+            }
+            var t;
+            window.addEventListener('resize', function() {
+                clearTimeout(t);
+                t = setTimeout(resizeAi2html, 100);
+            });
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', resizeAi2html);
+            } else {
+                resizeAi2html();
+            }
+        })();
+    </script>
+</body>
+
+</html>
