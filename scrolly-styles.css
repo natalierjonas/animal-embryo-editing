@@ -105,6 +105,11 @@
     color: white;
     border-radius: 4px;
     line-height: 1.6;
+    will-change: opacity;
+}
+
+#graph3, #graph4 {
+    will-change: opacity;
 }
 
 .crossfade-slide p:last-child {
@@ -134,7 +139,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    opacity: 0;
 }
 
 .blank-step {
